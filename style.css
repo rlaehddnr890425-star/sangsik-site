@@ -93,3 +93,17 @@ a.mini:hover{background:var(--accent);color:#fff}
 figure.hero-img{margin:18px 0 22px}
 figure.hero-img img{width:100%;max-height:380px;object-fit:cover;border-radius:10px;display:block}
 figure.hero-img figcaption{font-size:12px;color:var(--dim,#888);margin-top:6px}
+
+/* ── UI 리뉴얼 v3 (2026-09-20, 벤치마크: Get A Happy Life) — 따뜻한 크림 배경·세리프 제목·코랄 포인트·체크리스트 ── */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+:root{--paper:#fbf7ef;--coral:#e2593e;--serif:'Nanum Myeongjo',serif}
+body{background:var(--paper)}
+header{background:var(--paper)}
+h1,.hero h1{font-family:var(--serif);letter-spacing:-.4px}
+h2{border-bottom:0;padding-bottom:0}
+h2::before{content:'';display:block;width:34px;height:3px;background:var(--coral);margin-bottom:10px;border-radius:2px}
+.card{border-radius:14px;border:1px solid #ece4d6;border-top:3px solid var(--accent);box-shadow:0 1px 2px rgba(80,50,20,.05)}
+.card:hover{transform:translateY(-1px);box-shadow:0 6px 16px rgba(80,50,20,.09);transition:.15s}
+.tag{background:#fbe8d8;color:#9a4b1f}
+.btn,form button{border-radius:999px;background:var(--coral);font-weight:600}
+.btn:hover,form button:hover{filter:brightness(.94)}
