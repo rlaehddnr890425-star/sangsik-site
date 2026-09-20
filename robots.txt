@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://rlaehddnr890425-star.github.io/sangsik/sitemap.xml
+Sitemap: https://sangsik.hub77a.com/sitemap.xml
